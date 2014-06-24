@@ -117,5 +117,12 @@ I’m not a lawyer and this is not a legal advice, but it is free to use in any 
 
 Enjoy !
 
+Contributors
+------------
+
+Victor Bilyk (https://github.com/vspy)
+
+Alexander Myltsev (https://github.com/alexander-myltsev) 
+
 [1]: http://github.com/defunkt/mustache
 [2]: http://code.google.com/p/simple-build-tool/
