@@ -1,12 +1,18 @@
+bintrayPublishSettings
+
 name := "mustache"
+
+organization := "com.vspy"
 
 version := "1.2"
 
 scalaVersion := "2.11.1"
 
-resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
+resolvers ++= Seq(
+  "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
+  "Typesafe Snapshots Repository" at "http://repo.typesafe.com/typesafe/snapshots/")
 
-resolvers += "Typesafe Snapshots Repository" at "http://repo.typesafe.com/typesafe/snapshots/"
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.8.1" % "test->default",
