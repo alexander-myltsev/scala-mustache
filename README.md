@@ -8,6 +8,17 @@ What is Mustache?
 
 As ctemplates says, "It emphasizes separating logic from presentation: it is impossible to embed application logic in this template language".
 
+Installation
+------------
+
+The artifacts for *mustache* live on Bintray and can be tied into your SBT-based Scala project like this:
+
+```scala
+resolvers += "bintray-alexander_myltsev" at "http://dl.bintray.com/content/alexander-myltsev/maven"
+
+libraryDependencies += "com.vspy" %% "mustache" % "1.2"
+```
+
 Usage
 -----
 
